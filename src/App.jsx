@@ -4,9 +4,9 @@ import About from "./components/About"
 import Music from "./components/Music"
 
 const backgroundImages = [
-  "url('./src/assets/nicophoto.jpg')",
-  "url('./src/assets/tronred.jpeg')",
-  "url('./src/assets/cyt.jpg')",
+  "url('https://storage.googleapis.com/nicoroc_audio/nicoroc%20(1).jpg')",
+  "url('https://storage.googleapis.com/nicoroc_audio/tronred.jpeg')",
+  "url('https://storage.googleapis.com/nicoroc_audio/1.jpg')",
   "url('./src/assets/sl.jpg')",
  
   // Add as many images as you like

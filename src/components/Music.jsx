@@ -4,30 +4,35 @@ import '@madzadev/audio-player/dist/index.css'
 
 const tracks = [
     {
-      url: 'src/assets/off.mp3',
+      url: 'https://storage.googleapis.com/nicoroc_audio/nicobazzoni%20-%20OFF%20-%20MASTER%20.mp3',
       title: 'nicoroc - off',
       tags: ['off'],
     },
     {
-      url: 'src/assets/kalkuta.mp3',
+      url: 'https://storage.googleapis.com/nicoroc_audio/nicobazzoni%20-%20KALKUTA%20-%20MASTER%20.mp3',
       title: 'nicoroc - kalkuta',
       tags: ['kalkuta'],
     },
     {
-      url: 'src/assets/seeyathere.mp3',
+      url: 'https://storage.googleapis.com/nicoroc_audio/nicobazzoni%20-%20SEE%20YA%20THERE%20-%20MASTER.mp3',
       title: 'nicoroc - see ya there feat. fedi',
       tags: ['seeyathere'],
     },
     {
-      url: 'src/assets/tron.mp3',
-      title: 'nicoroc - tron',
-      tags: ['tron'],
-      
+      url: 'https://storage.googleapis.com/nicoroc_audio/nicobazzoni%20-%20SKYLINE%20-%20MASTER%20.mp3',
+      title: 'nicoroc - skyline',
+      tags: ['skyline'],
+
     },
     {
-      url: 'src/assets/spider.mp3',
+      url: 'https://storage.googleapis.com/nicoroc_audio/nicobazzoni%20-%20SPIDER%20-%20MASTER%20.mp3',
       title: 'nicoroc - spider',
       tags: ['spider'],
+    },
+    {
+      url: 'https://storage.googleapis.com/nicoroc_audio/nicobazzoni%20-%20TRON%20-%20MASTER%20.mp3',
+      title: 'nicoroc - tron',
+      tags: ['tron'],
     },
 
   ]
