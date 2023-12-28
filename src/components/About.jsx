@@ -24,7 +24,7 @@ const About = () => {
 
   return (
     <>
-      <button onClick={showModal}>Lyrics</button>
+      <button className="items-center bg-black p-2 text-white font-mono w-full h-20  ml-32 border-white border-2 rounded-md" onClick={showModal}>samizdat</button>
       <Modal show={isOpen} onHide={hideModal}>
         <Modal.Header>
           <Modal.Title>Samizdat </Modal.Title>

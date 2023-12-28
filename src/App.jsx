@@ -2,12 +2,13 @@ import { Link } from "react-router-dom"
 import { useState, useEffect } from "react"
 import About from "./components/About"
 import Music from "./components/Music"
+import Header from "./components/Header"
 
 const backgroundImages = [
   "url('https://storage.googleapis.com/nicoroc_audio/nicoroc%20(1).jpg')",
   "url('https://storage.googleapis.com/nicoroc_audio/tronred.jpeg')",
   "url('https://storage.googleapis.com/nicoroc_audio/1.jpg')",
-  "url('./src/assets/sl.jpg')",
+  "url('https://storage.googleapis.com/nicoroc_audio/2.jpg')",
  
   // Add as many images as you like
 ];
@@ -33,14 +34,17 @@ export default function App() {
   
   
   return (
+    
     <main      className="bg-repeat h-screen bg-center bg-[length:500px_500px]"
     style={{ backgroundImage: bgImage }}>
+     
+      <section className="">
+        <Header />
+      </section>
 
       
-      <div className="absolute backdrop-blur items-center ml-2 p-2 left-0 font-bold tracking-widest top-0 h-20 w-36  ">
-       <h1 className="hover:text-red-300 ml-26 font-bold text-center  text-slate-800 ">nicoroc</h1>
-
-      </div>
+      
+      
       <section>
         <Music/>
         </section>
