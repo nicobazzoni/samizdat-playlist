@@ -4,9 +4,30 @@ import '@madzadev/audio-player/dist/index.css'
 
 const tracks = [
     {
-      url: 'https://storage.googleapis.com/nicoroc_audio/NICO%20-%20NAVY%20ZR%20MIX4.mp3',
-      title: 'nicoroc - navy',
-      tags: ['rap'],
+      url: 'src/assets/off.mp3',
+      title: 'nicoroc - off',
+      tags: ['off'],
+    },
+    {
+      url: 'src/assets/kalkuta.mp3',
+      title: 'nicoroc - kalkuta',
+      tags: ['kalkuta'],
+    },
+    {
+      url: 'src/assets/seeyathere.mp3',
+      title: 'nicoroc - see ya there feat. fedi',
+      tags: ['seeyathere'],
+    },
+    {
+      url: 'src/assets/tron.mp3',
+      title: 'nicoroc - tron',
+      tags: ['tron'],
+      
+    },
+    {
+      url: 'src/assets/spider.mp3',
+      title: 'nicoroc - spider',
+      tags: ['spider'],
     },
 
   ]
